@@ -3,4 +3,12 @@ const checkIfHasAllVowels = (word) => {
   return vowels.every((vowel) => word.includes(vowel));
 };
 
-export default checkIfHasAllVowels;
+const checkIfItsEven = (number) => {
+  if (number % 2 === 0) {
+    return true;
+  }
+
+  return false;
+};
+
+export default checkIfItsEven;
